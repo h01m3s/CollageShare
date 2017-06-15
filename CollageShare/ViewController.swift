@@ -36,7 +36,6 @@ class ViewController: UIViewController, UIDropInteractionDelegate {
                     let centerPoint = session.location(in: self.view)
                     imageView.center = centerPoint
                 }
-                
             })
         }
     }
